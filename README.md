@@ -71,7 +71,7 @@ python -m src.cli --input data/sample_rfp.md --refine-summary
 │   ├── retrieval.py          # 可解释的本地检索器
 │   ├── ingestion.py          # .md/.txt/.docx/.pdf 文档读取
 │   ├── llm.py                # 可选、OpenAI 兼容的摘要润色适配器
-│   └── evaluate.py           # 引用覆盖率等可复现指标
+│   ├── evaluate.py           # 引用覆盖率等可复现指标
 │   └── cli.py                # 命令行入口
 ├── data/
 │   ├── knowledge_base/       # 模拟产品文档和案例
